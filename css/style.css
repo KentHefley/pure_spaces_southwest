@@ -436,7 +436,7 @@ body.visible {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("/img/water.png") no-repeat center;
+  background: url("../img/water.png") no-repeat center;
   background-size: cover;
 }
 
@@ -475,7 +475,7 @@ iframe {
 }
 
 .benefits {
-  background: url("/img/benefits_section.png") no-repeat center;
+  background: url("../img/benefits_section.png") no-repeat center;
   background-size: cover;
 }
 
@@ -500,7 +500,7 @@ iframe {
 }
 
 .contact {
-  background: url("/img/contact.png") no-repeat;
+  background: url("../img/contact.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
