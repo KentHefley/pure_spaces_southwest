@@ -1,0 +1,197 @@
+.fa-check-circle {
+    color: $primary-color;
+    margin-right: .5rem;
+}
+
+.title {
+    margin-bottom: 3rem;
+}
+
+.section-container {
+    color: #555;
+    width: 95%;
+    max-width: 1120px;
+    padding: 4rem 0;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+        color: #000;
+    }
+
+    h2 {
+        color: #000;
+    }
+
+    h3 {
+        color: #000;
+    }
+}
+
+.column {
+    text-align: left;
+}
+
+.section-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.column-2 {
+    margin-left: 4rem;
+}
+
+
+//Water div
+
+.water {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/img/water.png') no-repeat center;
+    background-size: cover;
+
+    h2 {
+        color: #fff;
+    }
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+// video div
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+
+//Dark Div
+
+.dark {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000
+}
+
+//Benefits Section
+
+.benefits {
+    background: url('/img/benefits_section.png') no-repeat center;
+    background-size: cover;
+
+}
+
+.benefit-container {
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 2.5rem;
+
+    .icon {
+        width: 18%;
+    }
+
+    .green-seal {
+        width: 45px;
+    }
+}
+
+
+
+
+
+
+//contact section
+.contact {
+    background: url('/img/contact.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        color: #fff;
+    }
+
+
+}
+
+.contact-title {
+    color: #fff;
+    font-weight: bold;
+}
+
+form {
+    width: 95%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+
+    label {
+        color: #fff;
+    }
+
+
+}
+
+form #promise {
+    color: #fff;
+}
+
+//Footer 
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 0;
+
+
+    .fa-2x {
+        color: #fff;
+    }
+
+    p {
+        font-weight: 400;
+    }
+}
+
+.footer-container {
+    max-width: 1120px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seals {
+    display: flex;
+
+    img {
+        width: 64px;
+        height: 64px;
+        margin-right: 15px;
+    }
+}
+
+.seals img:nth-of-type(3) {
+    margin: 0;
+}
+
+.social a:nth-of-type(1) {
+    margin-right: 25px;
+}
+
+.copyright p {
+    font-size: .85rem;
+    margin: auto 0;
+}

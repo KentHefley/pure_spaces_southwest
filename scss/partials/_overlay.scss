@@ -1,0 +1,47 @@
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $animate-color;
+    z-index: 2;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: transform 1s ease;
+
+    svg {
+        width: 15rem;
+    }
+}
+
+.words {
+    width: 15rem;
+    padding: 10px 0;
+    position: relative;
+    bottom: -2000px;
+    animation: move;
+    animation-duration: 1s;
+    animation-delay: 1.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.100);
+
+}
+
+
+@keyframes move {
+    0% {
+        bottom: -2000px
+    }
+
+
+
+    100% {
+        bottom: 0;
+    }
+}
