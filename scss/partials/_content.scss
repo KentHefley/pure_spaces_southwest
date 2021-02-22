@@ -42,6 +42,31 @@
     margin-left: 4rem;
 }
 
+//Brochure Button
+.brochure {
+    display: inline-block;
+    border: none;
+    background: lightsalmon;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    transition: transform .3s ease;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+
+.brochure:hover {
+    transform: scale(1.05);
+    color: #fff;
+    text-decoration: none;
+}
+
 
 //Water div
 
