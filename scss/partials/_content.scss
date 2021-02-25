@@ -173,6 +173,10 @@ form #promise {
     color: #fff;
 }
 
+.hidden{
+    display: none;
+}
+
 //Footer 
 footer {
     background-color: #000;
@@ -188,6 +192,15 @@ footer {
         font-weight: 400;
     }
 }
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .footer-container {
     max-width: 1120px;
