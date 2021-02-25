@@ -80,3 +80,15 @@ body.visible {
         background: darken(lightsalmon, 4)
     }
 }
+
+.contact-btn {
+    background: lightsalmon;
+    color: #fff;
+    padding: 8px 10px;
+    transition: transform 0.4s ease;
+
+    &:hover {
+        transform: scale(1.1)
+    }
+}
+
